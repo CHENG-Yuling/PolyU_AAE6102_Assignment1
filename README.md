@@ -13,39 +13,48 @@ This repository contains the code and documentation for AAE Assignment 1. All ta
 ## Task Details
 
 ### Task 1
+
+
 #### Open Sky
-![Example Image](https://github.com/yourusername/yourrepository/raw/main/images/example.png)
+| Channel | PRN |   Frequency   |  Doppler  | Code Offset | Status |
+|---------|-----|---------------|-----------|-------------|--------|
+|    1    |  16 |  4.57976e+06 |    -240   |     31994   |   T    |
+|    2    |  26 |  4.58192e+06 |    1917   |     57754   |   T    |
+|    3    |  31 |  4.58107e+06 |    1066   |     18744   |   T    |
+|    4    |  22 |  4.58157e+06 |    1571   |     55101   |   T    |
+|    5    |  27 |  4.57678e+06 |   -3220   |      8814   |   T    |
+
+<img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/aquicition.png alt="替代文本" width=400 height=300><img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/navigation3.png alt="替代文本" width=300 height=300>
 
 #### Urban
-![Example Image](https://github.com/yourusername/yourrepository/raw/main/images/example.png)
+<img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/aquicition.png alt="替代文本" width=600 height=400>
 
 ### Task 2
 #### Open Sky
-- Description of the results and observations for the open sky scenario.
+<img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/aquicition.png alt="替代文本" width=600 height=400>
 
 #### Urban
-- Description of the results and observations for the urban scenario.
+<img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/aquicition.png alt="替代文本" width=600 height=400>
 
 ### Task 3
 #### Open Sky
-- Description of the results and observations for the open sky scenario.
+<img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/navigation.png alt="替代文本" width=600 height=400>
 
 #### Urban
 - Description of the results and observations for the urban scenario.
 
 ### Task 4
 #### Open Sky
-- Description of the results and observations for the open sky scenario.
+<img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/aquicition.png alt="替代文本" width=600 height=400>
 
 #### Urban
-- Description of the results and observations for the urban scenario.
+<img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/aquicition.png alt="替代文本" width=600 height=400>
 
 ### Task 5
 #### Open Sky
-- Description of the results and observations for the open sky scenario.
+<img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/EKF.png alt="替代文本" width=600 height=400>
 
 #### Urban
-- Description of the results and observations for the urban scenario.
+<img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/EKF.png alt="替代文本" width=600 height=400>
 
-## Conclusion
-This assignment demonstrated the ability to work with GNSS data in various environments, showcasing the differences in performance and accuracy between open sky and urban conditions. Further analysis and visualizations can be found in the accompanying drawings generated through the added drawing code.
+
