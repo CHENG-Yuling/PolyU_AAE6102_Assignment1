@@ -142,7 +142,7 @@ Decode the navigation message and extract key parameters, we can have ephemeris 
 | t_oe       | 453600       | 453600       | 453600       | 453600      |
 | TOW        | 449352       | 449352       | 449352       | 449352      |
 
-<img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/urbanpng/navigation.png alt="替代文本" width=600 height=500>
+<img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/urbanpng/navigation.png alt="替代文本" width=600 height=400>
 
 ### Task 4
 Consider a receiver that receives signals from multiple satellites and estimates its position using pseudoranges. The receiver's position and clock bias are estimated. In WLS, the weight of the error is considered and the following formula is used for parameter estimation: $\hat{\mathbf{p}} = (\mathbf{H}^T \mathbf{W} \mathbf{H})^{-1} \mathbf{H}^T \mathbf{W} \mathbf{r}$
