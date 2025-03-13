@@ -55,7 +55,7 @@ settings.skipNumberOfBytes     = 0;% 215*4e6*2*2;% 1000;%7000*26000*2;
 % This is a "default" name of the data file (signal record) to be used in
 % the post-processing mode
 % settings.fileName           = 'G:\GNSS_IF_data\USRP B210\12Nov2022_B210_6.dat';%'C:\Users\gnss\Desktop\Discussion\Amungo Navigation for NUT4NT+\dump_ch1.bin';  
-settings.fileName           = "D:\Softgnss-0311(2)\Urban.dat";
+settings.fileName           = "D:\Softgnss-urban\Urban.dat";
 % settings.fileName           = "B:\aae6102\data\urban\Urban.dat";
 % Data type used to store one sample
 settings.dataType           = 'schar';%'schar';  
