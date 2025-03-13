@@ -1,4 +1,4 @@
-# AAE Assignment 1
+# AAE6102 Assignment 1
 
 **Author:** CHENG Yuling  
 **Student ID:** 24041314r  
