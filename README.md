@@ -59,7 +59,7 @@ For 26, we have
 
 For correlation plots,
 
-<img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/PRN11cor.png alt="替代文本" width=400 height=300><img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/PRN1cor.png alt="替代文本" width=400 height=300>
+<img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/PRN16cor.png alt="替代文本" width=400 height=300><img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/PRN26cor.png alt="替代文本" width=400 height=300>
 
 #### Urban
 For PRN 1, we have
@@ -68,7 +68,7 @@ For PRN 1, we have
 
 For correlation plots,
 
-<img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/urbanpng/PRN1cor.png alt="替代文本" width=400 height=300>
+<img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/urbanpng/PRN1cor.png alt="替代文本" width=400 height=300><img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/urbanpng/PRN11cor.png alt="替代文本" width=400 height=300>
 
 In urban environments, signals from satellites may reflect off buildings and other structures, creating multiple signal paths and degrading the signal. The presence of multiple paths may result in multiple correlation peaks in signal processing, which can confuse signal processing algorithms, leading to errors in positioning and navigation.
 
