@@ -14,10 +14,10 @@ This repository contains the code and documentation for AAE Assignment 1. All ta
 
 ### Task 1
 #### Open Sky
-- Description of the results and observations for the open sky scenario.
+![Example Image](https://github.com/yourusername/yourrepository/raw/main/images/example.png)
 
 #### Urban
-- Description of the results and observations for the urban scenario.
+![Example Image](https://github.com/yourusername/yourrepository/raw/main/images/example.png)
 
 ### Task 2
 #### Open Sky
