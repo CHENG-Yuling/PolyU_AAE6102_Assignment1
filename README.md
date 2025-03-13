@@ -8,7 +8,9 @@ This repository contains the code and documentation for AAE Assignment 1. All ta
 
 - `postProcessing.m`
 - `posNavigation.m`
-- Additional code for drawing.
+- Additional plot code for drawing
+
+All images in openskypng and urbanpng files are screenshots of the corresponding file tasks results.
 
 ## Task Details
 
@@ -57,7 +59,7 @@ For 26, we have
 
 For correlation plots,
 
-<img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/PRN16cor.png alt="替代文本" width=400 height=300>
+<img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/PRN11cor.png alt="替代文本" width=400 height=300><img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/PRN1cor.png alt="替代文本" width=400 height=300>
 
 #### Urban
 For PRN 1, we have
@@ -153,15 +155,27 @@ The receiver's velocity can be calculated by taking the time derivative of the r
 <img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/Compare.png alt="替代文本" width=600 height=500>
 
 ### Task 5
-For Kalman filter-based positioning:
-Prediction Step: $\mathbf{x}_{k|k-1} = f(\mathbf{x}_{k-1|k-1}, \mathbf{u}_k) + \mathbf{w}_k$
-Predict the error covariance: $\mathbf{P}_{k|k-1} = \mathbf{F}_k \mathbf{P}_{k-1|k-1} \mathbf{F}_k^T + \mathbf{Q}_k$
-Update Step:$\mathbf{z}_k = h(\mathbf{x}_{k|k-1}) + \mathbf{v}_k$
-Compute the measurement prediction:$\mathbf{z}_{k|k-1} = h(\mathbf{x}_{k|k-1})$
-Compute the Jacobian of the measurement function:$\mathbf{H}_k = \frac{\partial h}{\partial \mathbf{x}} \bigg|_{\mathbf{x} = \mathbf{x}_{k|k-1}}$
-Calculate the Kalman Gain:$\mathbf{K}_k = \mathbf{P}_{k|k-1} \mathbf{H}_k^T \left( \mathbf{H}_k \mathbf{P}_{k|k-1} \mathbf{H}_k^T + \mathbf{R}_k \right)^{-1}$
-Update the state estimate:$\mathbf{x}_{k|k} = \mathbf{x}_{k|k-1} + \mathbf{K}_k \left( \mathbf{z}_k - \mathbf{z}_{k|k-1} \right)$
-Update the error covariance:$\mathbf{P}_{k|k} = \left( \mathbf{I} - \mathbf{K}_k \mathbf{H}_k \right) \mathbf{P}_{k|k-1}$
+
+The Extended Kalman Filter (EKF) involves several key steps to estimate the state of a dynamic system:
+
+#### Initialization:
+   - Set the initial state estimate and covariance matrix.
+   - Define the process noise and measurement noise covariance matrices.
+
+#### Prediction Step:
+   - Predict the current state based on the previous state estimate and control inputs.
+   - Calculate the covariance of the state estimate, incorporating process noise.
+
+#### Update Step:
+   - Compute the measurement residual (the difference between the actual measurements and predicted measurements).
+   - Calculate the Kalman gain to optimize the state update.
+   - Update the state estimate by combining the predicted state and the measurement.
+   - Update the covariance matrix to reflect the new uncertainty.
+
+#### Iterative Processing:
+   - Repeat the prediction and update steps to continuously process state estimates over time.
+
+These steps enable the Extended Kalman Filter to effectively track the state of nonlinear dynamic systems while integrating measurements from sensors to provide real-time state estimations.
 #### Open Sky
 <img src=https://github.com/CHENG-Yuling/PolyU_AAE6102_Assignment1/blob/main/openskypng/EKF.png alt="替代文本" width=400 height=300>
 
